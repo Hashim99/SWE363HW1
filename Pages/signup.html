@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+<meta name="keywords" content="KSA, GIS, Saudi Arabia, Jeddah, Riyadh, Dammam">
+	<link rel="stylesheet" type="text/css" href="homepageStyle.css">
+	<title>Sign Up</title>
+</head>
+<body>
+<!-- 
+This is the sign up page
+-->
+<header>
+	
+<nav>
+
+<a href="../index.html"><img id="logo" alt= "GIS logo" title= "GIS logo" src="../Images/gisLogo.png"></a>
+	
+	<div id="links">
+		<ul>
+		  <li>MAPS</li>
+	  <li>RESOURCES</li>
+	  <li>EVENTS</li>
+	  <li>PRODUCTS</li>
+	</ul>
+		
+
+	</div>
+
+
+	<div id = "profile">
+			<img  id="profileImg" alt= "Profile image" title= "Profile image" src="../Images/profile.png">	
+	
+<h4> <a href="signin.html">Sign in</a> / <a href="signup.html">Sign up</a> </h4>
+	</div>
+	
+
+
+	
+	</nav>
+
+</header>
+<h2>Sign in</h2>
+
+<!-- 
+Simple sign up form
+-->
+
+<form action="../index.html">
+
+  <label for="fname">*First Name</label><br>
+  <input type="text" id="fname" name="fname" value=""><br>
+
+   <label for="lname">*Last Name</label><br>
+  <input type="text" id="lname" name="lname" value=""><br>
+
+  <label for="email">*Email</label><br>
+  <input type="email" id="email" name="email" value=""><br>
+
+  <label for="username">*Username</label><br>
+  <input type="text" id="username" name="username" value=""><br>
+
+  <label for="password">*Password</label><br>
+  <input type="text" id="password" name="password" value=""><br><br>
+
+
+<!-- 
+Could be done better with javascript (a dropdown list with checking)
+-->
+
+  <label>Favorite Cities: </label>
+
+  <label for = "riyadh">Riyadh</label>
+  <input type="checkbox" id= "riyadh" name="riyadh">
+
+  <label for = "jeddah">Jeddah</label>
+  <input type="checkbox" id= "jeddah" name="jeddah">
+
+  <label for = "dammam">Dammam</label>
+  <input type="checkbox" id= "dammam" name="dammam">
+
+  <input type="submit" value="Sign up">
+</form> 
+<hr>
+<footer>
+	<a href="validation.html">Validation</a>
+
+</footer>
+</body>
+</html>
